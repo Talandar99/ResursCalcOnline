@@ -1,14 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resurs Calc</title>
+    <script src="script.js"></script>
 </head>
 <body>
-    <button>przycisk</button>
-    <div class="Wynik">Wynik</div>
-    
+    <div>Rodzaj UTB:</div>   
+    <select id="Rodzaj UTB:">
+        <option value="0" selected="selected">IC</option>
+        <option value="1">E</option>
+        <option value="2">WH</option>
+        <option value="3">VNA</option>
+    </select>
+    <div>SerwisowanyWgDTR:</div>   
+    <select id="SerwisowanyWgDTR:">
+        <option value="0" selected="selected">Tak</option>
+        <option value="1">Nie</option>
+    </select>
+
+    <div>Kurz/Brud:</div>   
+    <select id="Kurz/Brud:">
+        <option value="0" selected="selected">bardzo mało</option>
+        <option value="1">średnio</option>
+        <option value="2">bardzo dużo</option>
+    </select>
+
+    <div>Wilgoc/Woda:</div>   
+    <select id="Wilgoc/Woda:">
+        <option value="0" selected="selected">nigdy</option>
+        <option value="1">czasami</option>
+        <option value="2">zawsze</option>
+    </select>
+
+    <div>StanNawierzchni:</div>   
+    <select id="StanNawierzchni:">
+        <option value="0" selected="selected">dobry</option>
+        <option value="1">średni</option>
+        <option value="2">zły</option>
+    </select>
+
+    <div>PomostLadunkowy:</div>   
+    <select id="PomostLadunkowy:">
+        <option value="0" selected="selected">nigdy</option>
+        <option value="1">czasami</option>
+        <option value="2">zawsze</option>
+    </select>
+
+    <div>Krawędzie/Szyny:</div>   
+    <select id="Krawędzie/Szyny:">
+        <option value="0" selected="selected">nigdy</option>
+        <option value="1">czasami</option>
+        <option value="2">zawsze</option>
+    </select>
+
+    <div>Podjazd/Rampa:</div>   
+    <select id="Podjazd/Rampa:">
+        <option value="0" selected="selected">nigdy</option>
+        <option value="1">czasami</option>
+        <option value="2">zawsze</option>
+    </select>
+
+    <div>CzasPracy:</div>   
+    <select id="CzasPracy:">
+        <option value="0" selected="selected">1 zmiana</option>
+        <option value="1">2 zmiany</option>
+        <option value="2">3 zmiany</option>
+    </select>
+
+    <div>Kierowcy:</div>   
+    <select id="Kierowcy:">
+        <option value="0" selected="selected">Wewnętrzni</option>
+        <option value="1">Wewnętrzni/Zewnętrzni</option>
+        <option value="2">Zewnętrzni</option>
+    </select>
+
+    <div>StalyKierowca:</div>   
+    <select id="StalyKierowca:">
+        <option value="0" selected="selected">tak(jeden)</option>
+        <option value="1">mix(dwóch)</option>
+        <option value="2">nie(więcej niż dwóch)</option>
+    </select>
+
+    <div>MiejscePracy:</div>   
+    <select id="MiejscePracy:">
+        <option value="0" selected="selected">Wewnątrz</option>
+        <option value="1">Mieszany</option>
+        <option value="2">Na Zewnątrz</option>
+    </select>
+
+    <div>Mroznia:</div>   
+    <select id="Mroznia:">
+        <option value="0" selected="selected">Nie</option>
+        <option value="1">Zawsze</option>
+        <option value="2">IN/Out</option>
+    </select>
+
+    <div>MrozniaTemperatura:</div>   
+    <select id="MrozniaTemperatura:">
+        <option value="0" selected="selected">mniej niż -4 stopnie</option>
+        <option value="1">mniej niż -10 stopni</option>
+        <option value="2">mniej niż -20 stopni</option>
+    </select>
+
+    <div>Holowanie:</div>   
+    <select id="Holowanie:">
+        <option value="0" selected="selected">nigdy</option>
+        <option value="1">czasami</option>
+        <option value="2">zawsze</option>
+    </select>
+    <div>Wynik:</div>
+    <button onclick="Oblicz()">Oblicz</button>
+
 </body>
 </html>
