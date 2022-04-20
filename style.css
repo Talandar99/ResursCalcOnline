@@ -6,14 +6,18 @@ body{
     background-color: rgb(221, 202, 178);
 }
 select{
-    width: 20%;
+    width: 40%;
     height: 50px;
 }
 div{
     border-radius: 10;
 }
 button{
-    width: 20%;
+    width: 30%;
     height: 40px;
     size: 200%;
+    background-color: aquamarine;
+}
+button:hover{
+    background-color:aqua;
 }
