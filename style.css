@@ -3,21 +3,25 @@ body{
     align-items: center;
     flex-direction: column;
     font-size: 200%;
-    background-color: rgb(221, 202, 178);
+    background-color: #4e598c;
 }
 select{
     width: 40%;
     height: 50px;
+    border-radius: 10;
 }
 div{
     border-radius: 10;
+    color: #ffffff;
 }
 button{
-    width: 30%;
-    height: 40px;
+    width: 40%;
+    height: 50px;
     size: 200%;
-    background-color: aquamarine;
+    border-radius: 10;
+    background-color: #fcaf58;
 }
 button:hover{
-    background-color:aqua;
+    background-color: #f9c784;
+
 }
