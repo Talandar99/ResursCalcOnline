@@ -1,5 +1,5 @@
 # ResursCalcOnline
-webowa wersja aplikacji pod tym linkiem: https://talandar99.github.io/hyperlinkdrifter-online/
+webowa wersja aplikacji pod tym linkiem: https://talandar99.github.io/ResursCalcOnline/
 
 ## Opis
 Próba przeniesienia aplikacji napisanej w javie na JS, aby móc mieć do niej dostęp z dowonlego urządzenia.
